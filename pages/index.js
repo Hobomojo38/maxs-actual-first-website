@@ -6,6 +6,9 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
+      <title>Max Zimmermann</title>
+        <meta name="description" content="Max Zimmermanns website"/>
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
