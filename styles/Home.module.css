@@ -19,6 +19,8 @@
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  color:#eaeaea;
 }
 
 .footer a {
@@ -42,7 +44,7 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .title,
@@ -54,6 +56,22 @@
   margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.description a{
+  color: #af5252;
+}
+
+.card p1 a:hover{
+  color: #af5252;
+}
+
+.subtitle {
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+  text-align: center;
 }
 
 .code {
@@ -70,7 +88,18 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
+}
+
+.smallgrid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 500px;
+  margin: 50px;
+
+  border-radius: 1px;
+  border-color: #eaeaea;
 }
 
 .card {
@@ -79,18 +108,106 @@
   text-align: left;
   color: inherit;
   text-decoration: none;
+  border: 1px solid #af5252;
+  background-color: #2d2d2d;
+  border-radius: 30px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 500px;
+}
+
+/*All the different linkcards because I can't figureout how t make subclasses*/
+
+.YTlinkcard{
+  margin: 1rem;
+  padding: 1.75rem;
+  font-size: 1.25rem;
+  text-align: center;
+  color: inherit;
+  text-decoration: none;
   border: 1px solid #eaeaea;
-  border-radius: 10px;
+  background-color: #af525227;
+  border-radius: 100px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.YTlinkcard:hover,
+.YTlinkcard:focus,
+.YTlinkcard:active {
+  color: #fafafa;
+  border-color: #2d2d2d;
+  background-color: #ff2323;
 }
+
+.INlinkcard{
+  margin: 1rem;
+  padding: 1.75rem;
+  font-size: 1.25rem;
+  text-align: center;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  background-color: #af525227;
+  border-radius: 100px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px;
+}
+
+.INlinkcard:hover,
+.INlinkcard:focus,
+.INlinkcard:active {
+  color: #fafafa;
+  border-color: #2d2d2d;
+  background:
+  linear-gradient(90deg, rgb(252, 176, 69) 0%, rgb(253, 29, 29) 0%, rgb(131, 58, 180) 100%);
+}
+
+.SClinkcard{
+  margin: 1rem;
+  padding: 1.75rem;
+  font-size: 1.25rem;
+  text-align: center;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  background-color: #af525227;
+  border-radius: 100px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px;
+}
+
+.SClinkcard:hover,
+.SClinkcard:focus,
+.SClinkcard:active {
+  color: #fafafa;
+  border-color: #2d2d2d;
+  background-color: #d64b00;
+}
+
+.GHlinkcard{
+  margin: 1rem;
+  padding: 1.75rem;
+  font-size: 1.25rem;
+  text-align: center;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  background-color: #af525227;
+  border-radius: 100px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px;
+}
+
+.GHlinkcard:hover,
+.GHlinkcard:focus,
+.GHlinkcard:active {
+  color: #fafafa;
+  border-color: #2d2d2d;
+  background-color: #31b13c;
+}
+
+
+
 
 .card h2 {
   margin: 0 0 1rem 0;
