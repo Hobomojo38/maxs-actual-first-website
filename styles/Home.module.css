@@ -45,30 +45,23 @@
   margin: 0;
   line-height: 1.15;
   font-size: 3rem;
-}
-
-.title,
-.description {
   text-align: center;
 }
 
-.description {
-  margin: 4rem 0;
+.subtitle {
+  margin: 0.25rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
   padding-top: 0.5rem;
   padding-bottom: 1rem;
+  text-align: center;
 }
 
-.description a{
+.subtitle a{
   color: #af5252;
 }
 
-.card p1 a:hover{
-  color: #af5252;
-}
-
-.subtitle {
+.altTitle {
   font-size: 2rem;
   letter-spacing: 0.5px;
   text-align: center;
@@ -115,7 +108,22 @@
   max-width: 500px;
 }
 
-/*All the different linkcards because I can't figureout how t make subclasses*/
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card r,
+.card p a,
+.card p1 r{
+  color: #af5252;
+}
+
+.card p1 a:hover{
+  color: #af5252;
+}
+
+/*All the different linkcards because I can't figure out how to make subclasses*/
 
 .YTlinkcard{
   margin: 1rem;
@@ -206,23 +214,20 @@
   background-color: #31b13c;
 }
 
-
-
-
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
+/* End of specialized linkcards */
 
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.titledDivider {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  font-size: 2rem;
+  min-width: 600px;
+  border-bottom: 1px solid #eaeaea;
 }
 
 @media (max-width: 600px) {
