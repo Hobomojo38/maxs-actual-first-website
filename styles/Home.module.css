@@ -4,7 +4,7 @@
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  padding: 4rem;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -45,6 +45,7 @@
   margin: 0;
   line-height: 1.15;
   font-size: 3rem;
+  
   text-align: center;
 }
 
@@ -52,9 +53,11 @@
   margin: 0.25rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
+  font-weight: 600;
   padding-top: 0.5rem;
   padding-bottom: 1rem;
   text-align: center;
+  color: #cecece;
 }
 
 .subtitle a{
@@ -89,7 +92,6 @@
   justify-content: center;
   flex-wrap: wrap;
   max-width: 500px;
-  margin: 50px;
 
   border-radius: 1px;
   border-color: #eaeaea;
@@ -107,6 +109,8 @@
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 500px;
 }
+
+/*background-color: #2d2d2d;*/
 
 .card h2 {
   margin: 0 0 1rem 0;
@@ -223,11 +227,17 @@
 
 .titledDivider {
   text-align: center;
+  
   padding-top: 2rem;
   padding-bottom: 1rem;
-  font-size: 2rem;
-  min-width: 600px;
+  margin-bottom: 1rem;
+
+  font-size: 3rem;
+  font-weight: 700;
+  
   border-bottom: 1px solid #eaeaea;
+  min-width: 50rem;
+  line-height: 1.15;  
 }
 
 @media (max-width: 600px) {

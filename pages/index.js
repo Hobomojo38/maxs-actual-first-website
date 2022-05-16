@@ -20,7 +20,7 @@ export default function Home() {
                   
             <p className={styles.subtitle}>Student at the <a>University of Ottawa</a></p>
 
-            <p1>I'm studying <a>computer science</a> with a minor in <a>physics</a>. Athought that is my main focus right now, I also take on <a>personal projects</a> (such as this website!) to grow my skills in <a>practical applications</a>.
+            <p1>I'm studying <a>computer science</a> with a minor in <a>physics</a>. Althought that is my main focus right now, I also take on <a>personal projects</a> (such as this website!) to grow my skills in <a>practical applications</a>.
             <br></br><br></br>I also have a passion for <a>music</a>, including singing and playing the <a>piano and drums</a>. I've made a few original songs, but I prefer to make covers of the songs I'm currently listening to. I hope to <a>grow this passion</a> and become a better and better musician over time.</p1>
 
           </div>
@@ -38,10 +38,10 @@ export default function Home() {
           </div>
         </div>
 
-        <div className = {styles.titledDivider}><div className={styles.title}>Projects</div></div>
+        <div className = {styles.titledDivider}>Projects</div>
 
         <div className={styles.card}>
-          This is a place to post projects I have completed, either posting just what the project was or providing a link to it.
+          <p>This is a place to post projects I have completed, either posting just what the project was or providing a link to it.</p>
         </div>
 
         <div className={styles.grid}>
@@ -49,11 +49,12 @@ export default function Home() {
           <div className={styles.card}>
             <r>May 14th, 2022</r>
             <div className={styles.subtitle}>Website</div>
-            <p> I an effort to try and expand my web development skills, I made this website. I guess that's kind of like learning to swim by jumping in the deep end
+            <p> In an effort to try and expand my web development skills, I made this website. I guess that's kind of like learning to swim by jumping into the deep end,
               but I've already had a bit of experiance with HTML, so it was just CSS, Next.js, and the various domains needed to run it. I'm pretty proud with how it turned out,
-              and hopefully I can maintain it through the years as my skills grow (alongside my list of projects...) <br></br><br></br> Also, credit where credit is due, 
-              this site was in no small way inspired by my friends Emilien and Reid's websites. I've borrowed some elements from both, so thank you guys for doing all the hard work
-              that I can now take credit for!
+              and hopefully I can maintain it throughout the years as my skills continue to grow (alongside my list of projects...) <br></br><br></br> 
+              
+              Also, credit where credit is due, this site was in no small way inspired by my friends Emilien and Reid's websites. I've borrowed some elements from both, 
+              so thank you guys for doing all the hard work that I can now take credit for!
             </p>
           </div>
 
@@ -65,11 +66,11 @@ export default function Home() {
               would get familiar with it by building a private minecraft server using their Instances.<br></br><br></br>
 
               It took a few days, but eventually I got it up and operational. You could activate the server by visiting a webpage, at which point a 5 hour 
-              countdown would start to eventually shut it down. Althought I wish I had more control options such as instant shut-down, I'm happy with how it turned out and I actually used it 
+              countdown would start to eventually shut the server back down. Althought I wish I had more control options for users such as instant shut-down, I'm happy with how it turned out and I actually used it 
               for the duration of that December. Unfortunately, it ended the same way all private minecraft servers do: a surge of excitement at the beginning only to fizzle out to nothing within
-              3 weeks. Tis the life... <br></br><br></br>
+              3 weeks. Tis the life of a server, oh well... <br></br><br></br>
 
-              Even so, I learned so much from this project. Not just how to use AWS, but how to work with Bash prompts and text-only interfaces. I had to make develop .service files 
+              Even so, I learned so much from this project. Not just how to use AWS, but how to work with Bash prompts and text-only interfaces. I had to develop .service files 
               and learn about (some...) automatic server processes. This was my first taste into servers and web applications, and overall, I'm pretty happy with how it turned out.
             </p>
           </div>
