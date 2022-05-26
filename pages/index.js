@@ -47,6 +47,30 @@ export default function Home() {
         <div className={styles.grid}>
 
           <div className={styles.card}>
+            <r>May 25, 2022</r>
+            <div className={styles.subtitle}>Perlin Noise Maze Solver</div>
+            <p> I took a trip to Vancouver this week for my brother's bachelor party (Congrats, Karl!). This meant I had two 5 hour flight and two
+              12 hour bus rides, and therefor, I wanted to take up a project. I'd watched a video about perlin noise and in my usual hubrus, I 
+              thought it wouldn't be that hard to set up. I was wrong. <br></br><br></br>
+
+              Step 1: learn how to make perlin noise. A quick readthrough of the <a href='https://en.wikipedia.org/wiki/Perlin_noise'>Wikipedia Page</a> and 
+              a few YouTube walkthoughts gave me a decently good idea of how the algorithm works. After a couple attempts and a few 
+              facepalms, I got the algorithm working and even implimented a GUI to show perlin like it usually it is, a map. <br></br><br></br>
+
+              Step 2: Impliment A* algorithm. As I've learned is common with java, the hard part of this was the setup more than the actual 
+              implimentation. Getting the Queue and Node classes to work took a while, but once that was done, I basicaly coded the rest on 
+              my first try. <br></br><br></br>
+
+              Althought I technically finished the project, I'm not sure if it came out how I wanted it to. I don't know if I could have 
+              done more than I did or if I was just distracted with this being done inbetween events on one of the best weekends I've ever 
+              had. Either way, I just don't think my heart was into it by the end and I more so wanted to get it done than do it well. <br></br><br></br>
+
+              Regardless, I'm still proud of what I made. You can download the code <a href='Maxs_Perlin_Pathfinding.zip'>here</a>.
+
+            </p>
+          </div>
+
+          <div className={styles.card}>
             <r>May 14th, 2022</r>
             <div className={styles.subtitle}>Website</div>
             <p> In an effort to try and expand my web development skills, I made this website. I guess that's kind of like learning to swim by jumping into the deep end,
