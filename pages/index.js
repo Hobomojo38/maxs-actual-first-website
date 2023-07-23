@@ -11,22 +11,39 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+      {/* <div className={styles.parallax}>
+        <div className={styles.parallax__layer} data-depth="0.6">
+          <img src="Centenial Flame Photo.jpg" alt="Layer 1" />
+        </div>
+        <div className={styles.parallax__layer} data-depth="0.4">
+          <img src="Polygonal_Fish.jpg" alt="Layer 2" />
+        </div>
+      </div> */}
+
+
+      <main className={styles.main} >
         <div className = {styles.grid}>
-          <div className = {styles.card}>
-            <p1>Hello, I am...</p1>
+          <div className = {styles.titleCard}>
+            <p1>Hello, my name is...</p1>
 
             <h1 className={styles.title}>Max Zimmermann</h1>
-                  
-            <p className={styles.subtitle}>Student at the <a>University of Ottawa</a></p>
 
-            <p1>I'm studying <a>computer science</a> with a minor in <a>physics</a>. Althought that is my main focus right now, I also take on <a>personal projects</a> (such as this website!) to grow my skills in <a>practical applications</a>.
-            <br></br><br></br>I also have a passion for <a>music</a>, including singing and playing the <a>piano and drums</a>. I've made a few original songs, but I prefer to make covers of the songs I'm currently listening to. I hope to <a>grow this passion</a> and become a better and better musician over time.</p1>
+            <p className={styles.subtitle}>Programmer, Musician, and University Student</p>
+
+            <p1>
+            I am currently studying <r>computer science</r> and <r>physics</r> at the <r>University of Ottawa</r>.
+            On top of my studies, I also take on <a>personal projects</a> (such as this website!) to grow my skills in <a>practical applications</a>, many of which are centered around <r>app development</r> as well as <r>music</r>.
+            I'm always looking for new projects to undertake and welcome the challenge of <r>pushing my comfort zone</r>.
+
+            <br></br><br></br>
+
+
+            </p1>
 
           </div>
 
           <div className = {styles.card}>
-            <h1 className={styles.altTitle}>My Socials</h1>
+            <h1 className={styles.altTitle}>My Social Media</h1>
 
             <linkgrid className = {styles.smallgrid}>
               <a className = {styles.YTlinkcard} href='https://www.youtube.com/channel/UCJlbxXNRgRfQhpqk600A9cw'>YouTube</a>
@@ -41,7 +58,7 @@ export default function Home() {
         <div className = {styles.titledDivider}>Projects</div>
 
         <div className={styles.card}>
-          <p>This is a place to post projects I have completed, either posting just what the project was or providing a link to it.</p>
+          <p>Here I have written about some of my past projects. Each post is half-explaination and half-blogpost. Enjoy!</p>
         </div>
 
         <div className={styles.grid}>
@@ -49,12 +66,12 @@ export default function Home() {
           <div className={styles.card}>
             <r>May 25, 2022</r>
             <div className={styles.subtitle}>Perlin Noise Maze Solver</div>
-            <p> I took a trip to Vancouver this week for my brother's bachelor party (Congrats, Karl!). This meant I had two 5 hour flight and two
-              12 hour bus rides, and therefor, I wanted to take up a project. I'd watched a video about perlin noise and in my usual hubrus, I 
+            <p> I took a trip to Vancouver this week for my brother's bachelor party (Congrats, Karl!). This meant I had two 5-hour flights and two
+              12-hour bus rides, and therefore, I wanted to take up a project. I'd watched a video about perlin noise and in my usual hubris, I 
               thought it wouldn't be that hard to set up. I was wrong. <br></br><br></br>
 
-              Step 1: learn how to make perlin noise. A quick readthrough of the <a href='https://en.wikipedia.org/wiki/Perlin_noise'>Wikipedia Page</a> and 
-              a few YouTube walkthoughts gave me a decently good idea of how the algorithm works. After a couple attempts and a few 
+              Step 1: Learn how to make perlin noise. A quick readthrough of the <a href='https://en.wikipedia.org/wiki/Perlin_noise'>Wikipedia Page</a> and 
+              a few YouTube walkthoughts gave me a pretty good idea of how the algorithm works. After a couple attempts and a few 
               facepalms, I got the algorithm working and even implimented a GUI to show perlin like it usually it is, a map. <br></br><br></br>
 
               Step 2: Impliment A* algorithm. As I've learned is common with java, the hard part of this was the setup more than the actual 
@@ -72,9 +89,9 @@ export default function Home() {
 
           <div className={styles.card}>
             <r>May 14th, 2022</r>
-            <div className={styles.subtitle}>Website</div>
+            <div className={styles.subtitle}>Personal/Professional Website</div>
             <p> In an effort to try and expand my web development skills, I made this website. I guess that's kind of like learning to swim by jumping into the deep end,
-              but I've already had a bit of experiance with HTML, so it was just CSS, Next.js, and the various domains needed to run it. I'm pretty proud with how it turned out,
+              but I've already had a bit of experience with HTML, so it was just CSS, Next.js, and the various domains needed to run it. I'm pretty proud with how it turned out,
               and hopefully I can maintain it throughout the years as my skills continue to grow (alongside my list of projects...) <br></br><br></br> 
               
               Also, credit where credit is due, this site was in no small way inspired by my friends Emilien and Reid's websites. I've borrowed some elements from both, 
@@ -167,7 +184,9 @@ export default function Home() {
 
       <footer className={styles.footer}>
         Made using Next.js
-        <br></br>Created by Max Zimmermann, 2022
+        <br></br>Created by Max Zimmermann, 2023
+        <br></br>
+        <br></br>For business inquiries, email me at max@maxzimmermann.ca
       </footer>
     </div>
   )
